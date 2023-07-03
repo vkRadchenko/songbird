@@ -10,10 +10,8 @@ const topAudioPlayer = document.querySelector('.audio__player'),
   audio = document.querySelector('.img__circle'),
   imgAudioPlay = document.querySelector('.img__audio_play'),
   imgAudioPause = document.querySelector('.img__audio_pause'),
-  timebarContainer = document.querySelector('.timebar__container'),
   timebar = document.querySelector('.timebar'),
   timebarCircle = document.querySelector('.timebar__circle'),
-  timebarTime = document.querySelector('.timebar__info'),
   durationTime = document.querySelector('.duration'),
   nowTime = document.querySelector('.current__time'),
   volumeContainer = document.querySelector('.audio__volume_container'),
@@ -24,20 +22,16 @@ const topAudioPlayer = document.querySelector('.audio__player'),
   imgAudioPlayBottom = document.querySelector('.img__audio_play_bottom'),
   imgAudioPauseBottom = document.querySelector('.img__audio_pause_bottom')
 
-const questionList = document.querySelector('.question__list'),
-  listCircle = document.querySelector('.list__circle')
+const questionList = document.querySelector('.question__list')
 
 const birdWinnerImg = document.querySelector('.bird__winner_img'),
-  aboutHead = document.querySelector('.about__head'),
-  aboutText = document.querySelector('.about__text'),
   aboutName = document.querySelector('.about__title'),
   aboutSubtitle = document.querySelector('.about__bird_latinname'),
   aboutDescription = document.querySelector('.about__description'),
   aboutStartText = document.querySelector('.hello__text ')
 
 const btnFooter = document.querySelector('.footer__btn'),
-  scoreGame = document.querySelector('.score__num'),
-  nextLevel = document.querySelector('.next__level')
+  scoreGame = document.querySelector('.score__num')
 
 const audioWin = document.querySelector('.audio__win'),
   audioError = document.querySelector('.audio__error')
