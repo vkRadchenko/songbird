@@ -1,0 +1,42 @@
+{
+  "name": "songbird",
+  "version": "1.0.0",
+  "description": "quiz application",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --open",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/vkradchenko-JSFE2022Q3.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "quiz"
+  ],
+  "author": "Vladimir Raddchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/vkradchenko-JSFE2022Q3/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/vkradchenko-JSFE2022Q3#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "image-webpack-loader": "^8.1.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}

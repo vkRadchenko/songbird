@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SongBird</title>
+  </head>
+  <body class="victorina__body">
+    <div class="wrapper">
+      <header class="quiz__header">
+        <div class="logo"><span>SongBIrd</span></div>
+        <div class="score__container">
+          <span class="score__text">Score:</span>
+          <span class="score__num">0</span>
+        </div>
+      </header>
+      <main>
+        <div class="top__progress_game">
+          <ul class="progress__container">
+            <li id="workout" class="level__1 pr__list active__link">
+              <span class="progress__qestion">Разминка</span>
+            </li>
+            <li id="sparrow__bird" class="level__2 pr__list">
+              <span class="progress__qestion">Воробьиные</span>
+            </li>
+            <li id="forest__bird" class="level__3 pr__list">
+              <span class="progress__qestion">Лесные птицы</span>
+            </li>
+            <li id="song__bird" class="level__4 pr__list">
+              <span class="progress__qestion">Певчие птицы</span>
+            </li>
+            <li id="hunter__bird" class="level__5 pr__list">
+              <span class="progress__qestion">Хищные птицы</span>
+            </li>
+            <li id="sea__bird" class="level__6 pr__list">
+              <span class="progress__qestion">Морские птицы</span>
+            </li>
+          </ul>
+        </div>
+        <div class="question__listen_container">
+          <div class="top__image_container">
+            <div class="img__bg"><span class="img__bg_txt">?</span></div>
+            <img class="img__bird_hidden" src="./asset/Ellipse 5.png" alt="" />
+          </div>
+          <div class="listen__container">
+            <div class="listen__item_text">
+              <h2 class="bird__text_hidden">*****</h2>
+            </div>
+            <div class="audio__player">
+              <audio class="audio__top" src="#"></audio>
+              <div class="img__circle">
+                <img
+                  class="img__audio_play"
+                  src="./asset/audio_play.svg"
+                  alt=""
+                />
+                <img
+                  class="img__audio_pause"
+                  src="./asset/audio_pause.svg"
+                  alt=""
+                />
+              </div>
+              <div class="timebar__container">
+                <div class="timebar"></div>
+                <div class="timebar__circle"></div>
+                <div class="timebar__info">
+                  <div class="current__time">00:00</div>
+                  <div class="duration">00:00</div>
+                </div>
+                <div class="audio__volume_container">
+                  <div class="audio__volume"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="game__wrapper">
+          <div class="question__bird_container">
+            <audio
+              class="audio__win"
+              src="./asset/z_uki-_kto-hochet-stat-mlnrm_-pra_ilnyy-ot_et (mp3cut.net).mp3"
+            ></audio>
+            <audio
+              class="audio__error"
+              src="./asset/jg-032316-sfx-elearning-incorrect-answer-sound-3 (mp3cut.net).mp3"
+            ></audio>
+            <ul class="question__list"></ul>
+          </div>
+          <div class="bird__winner_container">
+            <img class="bird__winner_img" src="./asset/sova.svg" alt="bird" />
+          </div>
+          <div class="about__bird_container">
+            <p class="hello__text">
+              Послушайте плеер. <br />
+              Выберите птицу из списка
+            </p>
+            <div class="about__head">
+              <h2 class="about__title"></h2>
+              <span class="about__bird_latinname"></span>
+            </div>
+            <div class="about__text">
+              <p class="about__description"></p>
+            </div>
+            <div class="audio__player_bottom non">
+              <audio class="audio__bottom" src="#"></audio>
+              <div class="img__circle_bottom">
+                <img
+                  class="img__audio_play_bottom"
+                  src="./asset/audio_play.svg"
+                  alt=""
+                />
+                <img
+                  class="img__audio_pause_bottom"
+                  src="./asset/audio_pause.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="finish__game_container non">
+          <div class="finish__game">
+            <div class="finish__game_animation">
+              <img
+                src="./asset/image_processing20210905-31222-19zfdpi.gif"
+                alt="birds_animation"
+              />
+              <span class="author_animation"
+                ><a href="https://dribbble.com/shots/3245461-Pigeons"
+                  >Animation: Aslan Almukhambetov for Fireart Studio</a
+                >
+              </span>
+            </div>
+            <div class="finish__game_info">
+              <h2 class="finish__title">Поздравляем!</h2>
+              <p class="finish__description">
+                Вы прошли виктоину и набрали
+                <span class="current__score">12</span> из 30 возможных баллов.
+              </p>
+              <div class="restart__game_btn">
+                <span>Попробовать еще раз</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <span class="footer__btn footer__victorin">Следующий уровень</span>
+      </footer>
+    </div>
+  </body>
+</html>
